@@ -1,41 +1,18 @@
-# Ruby on Rails チュートリアルのサンプルアプリケーション
+# About
 
-これは、次の教材で作られたサンプルアプリケーションです。   
-[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-[Michael Hartl](http://www.michaelhartl.com/) 著
+This is my first app written by Ruby in Jun 2018.
+I make this app reading Ruby on rails Tutorial(https://railstutorial.jp/).
 
-## ライセンス
+And I add 6 functions to Ruby on rails Tutorial App.
+1. favorites to microposts
+2. reply to microposts
+3. Add profile sentence to users' profile
+4. Search in microposts
+5. Direct Message between users
+6. Login through Twtter
 
-[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
-ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています。
-詳細は [LICENSE.md](LICENSE.md) をご覧ください。
+Please read files below.
 
-## 使い方
-
-このアプリケーションを動かす場合は、まずはリポジトリを手元にクローンしてください。
-その後、次のコマンドで必要になる RubyGems をインストールします。
-
-```
-$ bundle install --without production
-```
-
-その後、データベースへのマイグレーションを実行します。
-
-```
-$ rails db:migrate
-```
-
-最後に、テストを実行してうまく動いているかどうか確認してください。
-
-```
-$ rails test
-```
-
-テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
-
-```
-$ rails server
-```
-
-詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
-を参考にしてください。
+![image](./about.png)
+![image](./explanation_of_function1.png)
+![image](./explanation_of_function2.png)
